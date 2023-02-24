@@ -1,7 +1,7 @@
 #/bin/bash
 MALIOR_HOME=${MALIOR_HOME:-$HOME}
 echo "Download malior.."
-wget  https://github.com/ChisBread/malior/raw/main/malior -O /usr/local/bin/malior
+wget  https://github.com/kingingwang/malior/raw/main/malior -O /usr/local/bin/malior
 chmod +x /usr/local/bin/malior
 cat > /tmp/malior-sudo <<EOF
 MALIOR_EXEC_USER=root malior \$*
