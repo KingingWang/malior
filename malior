@@ -8,7 +8,7 @@ source ${MALIOR_HOME:-$HOME}/.config/malior/envs.sh
     && source $MALIOR_HOME/.config/malior/envs.sh
 
 MALIOR_HOME=${MALIOR_HOME:-$HOME}
-MALIOR_PREFIX=${MALIOR_PREFIX:-https://github.com/ChisBread}
+MALIOR_PREFIX=${MALIOR_PREFIX:-https://github.com/kingingwang}
 MALIOR_IMAGE=${MALIOR_IMAGE:-chisbread/rk3588-gaming:base}
 
 function help() {
